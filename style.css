@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -32,4 +32,16 @@ h1{
 }
 .scroll-down{
     padding-top: 5%;
+}
+.mission-item{
+    width: 20%;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px gray;
+    background-color: rgb(247, 164, 164);
+}
+.mission-item img{
+    width: 300%;
 }
